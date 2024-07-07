@@ -3,9 +3,10 @@ project('glib', 'c',
   # NOTE: See the policy in docs/meson-version.md before changing the Meson dependency
   meson_version : '>= 1.2.0',
   default_options : [
-    'buildtype=debugoptimized',
+    'buildtype=debug',
     'warning_level=3',
-    'c_std=gnu99'
+    'c_std=gnu99',
+    'prefix=/opt/glib'
   ]
 )
 
