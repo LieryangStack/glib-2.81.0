@@ -27,5 +27,5 @@ tags
 # Meson
 /meson-build/
 /build/
-/subprojects/gvdb/
-/subprojects/sysprof/
+/subprojects/*/
+!subprojects/*.wrap
