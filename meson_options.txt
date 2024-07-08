@@ -147,5 +147,5 @@ option('gir_dir_prefix',
 
 option('introspection',
        type: 'feature',
-       value: 'auto',
+       value: 'enabled',
        description: 'Enable generating introspection data (requires gobject-introspection)')
