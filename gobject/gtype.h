@@ -757,7 +757,7 @@ gboolean              g_type_is_a                    (GType            type,
 						      GType            is_a_type);
 
 /* Hoist exact GType comparisons into the caller */
-#define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b)))
+#define g_type_is_a(a,b) ((a) == (b) || (g_type_is_a) ((a), (b))) /* 判断a是不是b的子类型（a是否继承与b） */
 
 GOBJECT_AVAILABLE_IN_ALL
 gpointer              g_type_class_ref               (GType            type);
