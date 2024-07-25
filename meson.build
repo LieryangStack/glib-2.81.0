@@ -5,8 +5,7 @@ project('glib', 'c',
   default_options : [
     'buildtype=debug',
     'warning_level=3',
-    'c_std=gnu99',
-    'prefix=/opt/glib'
+    'c_std=gnu99'
   ]
 )
 
