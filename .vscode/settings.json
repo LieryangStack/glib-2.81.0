@@ -1,4 +1,7 @@
 {
   "C_Cpp.default.compileCommands": "/home/lieryang/Desktop/glib-2.81.0/builddir/compile_commands.json",
-  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
+  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
+  "files.associations": {
+    "gmarshal-internal.h": "c"
+  }
 }
