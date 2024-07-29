@@ -6,7 +6,7 @@ project('glib', 'c',
     'buildtype=debug',
     'warning_level=3',
     'c_std=gnu99',
-    'prefix=/opt/vpf'
+    'prefix=/usr'
   ]
 )
 
