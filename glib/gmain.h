@@ -717,7 +717,7 @@ GSource *g_idle_source_new        (void);
 GLIB_AVAILABLE_IN_ALL
 GSource *g_child_watch_source_new (GPid pid);
 GLIB_AVAILABLE_IN_ALL
-GSource *g_timeout_source_new     (guint interval);
+GSource *g_timeout_source_new     (guint interval); /* ms */
 GLIB_AVAILABLE_IN_ALL
 GSource *g_timeout_source_new_seconds (guint interval);
 
